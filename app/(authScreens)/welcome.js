@@ -7,11 +7,11 @@ import { useRouter } from 'expo-router';
 export default function Welcome() {
   const router = useRouter()
 
-  // useEffect(()=>{
-  //   setTimeout(() => {
-  //     router.replace("(mainScreens)/homepage")
-  //   }, 3000);
-  // },[])
+  useEffect(()=>{
+    setTimeout(() => {
+      router.replace("(mainScreens)/home")
+    }, 3000);
+  },[])
   return (
     <View style={{
       flex:1,

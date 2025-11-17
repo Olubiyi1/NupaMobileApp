@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function Homepage() {
+export default function cartScreen() {
   return (
     <View>
-      <Text>Homepage</Text>
+      <Text>cartScreen</Text>
     </View>
   )
 }
